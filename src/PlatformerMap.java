@@ -16,6 +16,12 @@ public class PlatformerMap extends GameMap {
 		this.addGameObject(new Player(10,10));
 		
 	}
+	
+	public void jump(){
+		double vY = 0;
+		double gravity = 0.5;
+		boolean onGround = false;
+	}
 
 
 	@Override

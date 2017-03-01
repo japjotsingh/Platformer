@@ -3,8 +3,7 @@ import java.awt.Graphics;
 public class Player extends GameObject {
 	
 	public Player(int x, int y){
-		super(x,y,10,10);
-		
+		super(x,y,10,10);	
 	}
 
 	@Override
