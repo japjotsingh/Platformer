@@ -6,11 +6,13 @@ import java.awt.Rectangle;
 
 public abstract class GameObject implements MovingObject {
 
-	private double speed;// 0 - 10
-	private double direction, // degrees or radians
-		x, y, // >= 0
-		width,height,
-		health; // 0 - 100	
+	protected double speed;// 0 - 10
+	protected double direction; // 0 - 100	
+	private double x;
+	private double y;
+	private double width;
+	private double height;
+	private double health;
 	
 
 	public GameObject(int x, int y, int w, int h){
